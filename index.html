@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agência Criativa Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#home" class="logo">
+        <span class="logo__mark">ACW</span>
+        <span class="logo__name">Agência Criativa Web</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav">
+        <ul class="nav__list">
+          <li><a href="#home"        class="nav__link">Home</a></li>
+          <li><a href="#sobre"       class="nav__link">Sobre</a></li>
+          <li><a href="#servicos"    class="nav__link">Serviços</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato"     class="nav__link nav__link--cta">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <span class="eyebrow">Design que converte</span>
+        <h1 class="hero__title">Transformamos <em>ideias</em> em experiências digitais</h1>
+        <p class="hero__sub">Somos uma agência especializada em criar marcas e produtos digitais que geram resultado real para o seu negócio.</p>
+        <div class="hero__actions">
+          <a href="#servicos" class="btn btn--primary">Ver serviços</a>
+          <a href="#sobre"    class="btn btn--ghost">Conheça a agência</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="blob"></div>
+        <div class="hero__card hero__card--1">
+          <span class="card-label">Projetos entregues</span>
+          <strong>+340</strong>
+        </div>
+        <div class="hero__card hero__card--2">
+          <span class="card-label">Clientes satisfeitos</span>
+          <strong>98%</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <div class="sobre__grid">
+          <div class="sobre__texto">
+            <span class="eyebrow">Sobre nós</span>
+            <h2>Uma agência movida por propósito e criatividade</h2>
+            <p>Fundada em 2018, a <strong>Agência Criativa Web</strong> nasceu da crença de que design vai além da estética — é estratégia. Reunimos designers, desenvolvedores e estrategistas para criar soluções que conectam marcas às pessoas certas.</p>
+            <ul class="valores">
+              <li><span class="valor-icone">✦</span> Inovação constante</li>
+              <li><span class="valor-icone">✦</span> Transparência em cada etapa</li>
+              <li><span class="valor-icone">✦</span> Foco em resultados mensuráveis</li>
+              <li><span class="valor-icone">✦</span> Parceria de longo prazo</li>
+            </ul>
+          </div>
+          <div class="sobre__numeros">
+            <div class="numero-card">
+              <strong>6+</strong>
+              <span>Anos de mercado</span>
+            </div>
+            <div class="numero-card">
+              <strong>340+</strong>
+              <span>Projetos entregues</span>
+            </div>
+            <div class="numero-card">
+              <strong>80+</strong>
+              <span>Clientes ativos</span>
+            </div>
+            <div class="numero-card">
+              <strong>12</strong>
+              <span>Especialistas no time</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">O que fazemos</span>
+          <h2>Serviços que impulsionam sua marca</h2>
+          <p class="section-header__sub">Do conceito à entrega, cobrimos todas as frentes do seu projeto digital.</p>
+        </div>
+        <div class="servicos__grid">
+          <div class="card servico-card">
+            <div class="servico-icon">🎨</div>
+            <h3>Design Gráfico</h3>
+            <p>Identidade visual, materiais institucionais e peças criativas que comunicam a essência da sua marca.</p>
+          </div>
+          <div class="card servico-card">
+            <div class="servico-icon">💻</div>
+            <h3>Desenvolvimento Web</h3>
+            <p>Sites e aplicações rápidos, acessíveis e otimizados para SEO, construídos com as melhores tecnologias.</p>
+          </div>
+          <div class="card servico-card">
+            <div class="servico-icon">🔖</div>
+            <h3>Branding</h3>
+            <p>Criação e reposicionamento de marcas com estratégia, pesquisa e design de impacto duradouro.</p>
+          </div>
+          <div class="card servico-card">
+            <div class="servico-icon">📱</div>
+            <h3>UI/UX Design</h3>
+            <p>Interfaces intuitivas e experiências centradas no usuário para produtos digitais de alta conversão.</p>
+          </div>
+          <div class="card servico-card">
+            <div class="servico-icon">📣</div>
+            <h3>Marketing Digital</h3>
+            <p>Estratégias de conteúdo, mídia paga e SEO para ampliar seu alcance e gerar leads qualificados.</p>
+          </div>
+          <div class="card servico-card">
+            <div class="servico-icon">🛒</div>
+            <h3>E-commerce</h3>
+            <p>Lojas virtuais completas com foco em experiência de compra, performance e aumento de conversão.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="depoimentos" id="depoimentos">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Depoimentos</span>
+          <h2>O que nossos clientes dizem</h2>
+        </div>
+        <div class="depoimentos__grid">
+          <blockquote class="depoimento-card">
+            <p>"A Agência Criativa Web transformou completamente a nossa presença online. O novo site triplicou nossas conversões em apenas 3 meses."</p>
+            <footer>
+              <div class="depoimento-avatar">LC</div>
+              <div>
+                <strong>Lucas Carvalho</strong>
+                <span>CEO, TechBrasil</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="depoimento-card depoimento-card--destaque">
+            <p>"Profissionalismo do início ao fim. Eles entenderam nossa marca melhor do que nós mesmos. O rebranding foi um divisor de águas para o negócio."</p>
+            <footer>
+              <div class="depoimento-avatar">AM</div>
+              <div>
+                <strong>Ana Martins</strong>
+                <span>Diretora de Marketing, Viva Moda</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="depoimento-card">
+            <p>"Entrega impecável dentro do prazo e do orçamento. O design ficou moderno e nossos clientes adoraram a nova identidade visual."</p>
+            <footer>
+              <div class="depoimento-avatar">RF</div>
+              <div>
+                <strong>Rafael Ferreira</strong>
+                <span>Fundador, Sabor & Arte</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <div class="contato__grid">
+          <div class="contato__info">
+            <span class="eyebrow">Fale conosco</span>
+            <h2>Vamos criar algo incrível juntos?</h2>
+            <p>Conte-nos sobre seu projeto. Responderemos em até 24 horas.</p>
+            <ul class="contato__lista">
+              <li><span class="contato-icone">📍</span> Av. Paulista, 1000 — São Paulo, SP</li>
+              <li><span class="contato-icone">📞</span> (11) 9 9999-0000</li>
+              <li><span class="contato-icone">✉️</span> ola@agenciacriativaweb.com.br</li>
+            </ul>
+          </div>
+          <form class="contato__form" id="formContato" novalidate>
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required/>
+              <span class="campo__erro" id="erroNome"></span>
+            </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required/>
+              <span class="campo__erro" id="erroEmail"></span>
+            </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva seu projeto..." required></textarea>
+              <span class="campo__erro" id="erroMensagem"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensagem</button>
+            <p class="form-feedback" id="formFeedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="logo__mark">ACW</span>
+        <p>© 2025 Agência Criativa Web. Todos os direitos reservados.</p>
+        <nav aria-label="Rodapé">
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
